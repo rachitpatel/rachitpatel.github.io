@@ -38,12 +38,26 @@ plugins: # previsously gems
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-remote-theme
+  
 feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 4
 paginate_path: /blog/page:num/
+
+sass:
+  sass_dir: _scss
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  blanklines: false
+  profile: true
+  startings: [html, head, body]
+
 
 # Exclude from processing.
 exclude:
