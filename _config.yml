@@ -28,6 +28,7 @@ analytics:
   google:
     tracking_id: "UA-100526-4"
 
+google_analytics: UA-100526-4
 
 # Build settings
 markdown: kramdown
