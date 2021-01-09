@@ -12,3 +12,7 @@ Prod build: **bundle exec jekyll build** (Same comment about OS applies here)
 You will see "_site" folder with the artifacts.
 
 //TODO: enable Disqus based comments on posts. Unable to do this when using remote-theme for some reasons
+
+//TODO: add resume
+
+//TODO: Post more content :)
