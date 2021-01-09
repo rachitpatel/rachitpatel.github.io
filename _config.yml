@@ -1,0 +1,105 @@
+environment: prod
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
+google-site-verification: "XPeV-wVgSzrD2WYVdHFwCTXHcY19gVVw5D5oHlQoYL4"
+lang: en-US
+title: Rachit Patel
+description:	Personal website for Rachit Patel
+url: https://rachitpatel.github.io
+
+logo:	/assets/images/logo_small-rounded.png
+twitter_username: hirachit
+github_username: rachitpatel
+
+search: true
+search_full_content: true
+
+author:
+  name: Rachit Patel
+  twitter: hirachit
+  picture: /assets/images/logo_small-rounded.png
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "disqus_UYTvTLl6D4"
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-100526-4"
+
+
+# Build settings
+markdown: kramdown
+plugins: # previsously gems
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-remote-theme
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 4
+paginate_path: /blog/page:num/
+
+# Exclude from processing.
+exclude:
+  - .asset-cache
+  - .bundle
+  - .codeclimate.yml
+  - .editorconfig
+  - .gitattributes
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .scss-lint.yml
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - Rakefile
+  - README
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - /docs # ignore Basically Basic sample site
+  - /example # ignore Basically Basic dev site
+collections:
+  # projects:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # daily:
+  #   output: true
+  #   permalink: /:collection/:path/
+# Front Matter Defaults
+
+
+
+# defaults:
+#   # _posts
+#   - scope:
+#       path: "_posts"
+#       type: posts
+#     values:
+#       layout: post
+#       read_time: true
+
+
+
+  #_projects
+  # - scope:
+  #     path: "_projects"
+  #     type: projects
+  #   values:
+  #     layout: post
+  #     read_time: true
+  #_daily
+  # - scope:
+  #     path: "_daily"
+  #     type: daily
+  #   values:
+  #     layout: post
+  #     read_time: true
