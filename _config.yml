@@ -22,12 +22,12 @@ author:
 # not sure which disqus setting works...annoying
 
 disqus:
-  shortname: "disqus_UYTvTLl6D4"
+  shortname: "rachitpatel"
 
 comments:
   provider: "disqus"
   disqus:
-    shortname: "disqus_UYTvTLl6D4"
+    shortname: "rachitpatel"
 
 analytics:
   provider: "google-gtag"
