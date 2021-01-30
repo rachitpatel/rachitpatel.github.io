@@ -18,6 +18,12 @@ author:
   twitter: hirachit
   picture: /assets/images/logo_small-rounded.png
 
+
+# not sure which disqus setting works...annoying
+
+disqus:
+  shortname: "disqus_UYTvTLl6D4"
+
 comments:
   provider: "disqus"
   disqus:
@@ -55,7 +61,7 @@ compress_html:
   comments: ["<!-- ", " -->"]
   endings: all
   blanklines: false
-  profile: true
+  profile: false
   startings: [html, head, body]
 
 

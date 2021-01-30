@@ -13,6 +13,6 @@ You will see "_site" folder with the artifacts.
 
 //TODO: enable Disqus based comments on posts. Unable to do this when using remote-theme for some reasons
 
-//TODO: add resume
+//TODO: add resume section and update profile picture 
 
 //TODO: Post more content :)
