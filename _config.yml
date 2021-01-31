@@ -16,7 +16,7 @@ search_full_content: true
 author:
   name: Rachit Patel
   twitter: hirachit
-  picture: /assets/images/logo_small-rounded.png
+#  picture: /assets/images/logo_small-rounded.png
 
 
 # not sure which disqus setting works...annoying
