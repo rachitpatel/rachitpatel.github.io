@@ -99,15 +99,16 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo:             rachitpatel/rachitpatel.github.io
+    repo: 'rachitpatel/rachitpatel.github.io'
     repo_id: 'R_kgDOG-EXwA'
-    category: 'General'
+    category: 'Announcements'
     category_id: 'DIC_kwDOG-EXwM4COCUw'
-    mapping:          'pathname'
-    input_position:   'bottom'
-    lang:             # optional, default to the value of `site.lang`
+    mapping: 'pathname'
+    input_position: 'bottom'
+    lang: 'en'            # optional, default to the value of `site.lang`
     reactions_enabled: '1'
     theme: 'light'
+    crossorigin: 'anonymous'
 
 #<script src="https://giscus.app/client.js"
 #        data-repo="rachitpatel/rachitpatel.github.io"
